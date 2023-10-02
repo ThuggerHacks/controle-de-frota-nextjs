@@ -1,26 +1,23 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+.login-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.login-container>.card{
+  width: 400px;
 }
 
-* {
-  box-sizing: border-box;
+.container-fluid-custom{
+  max-width: 1700px !important;
+  margin:100px auto !important;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.modal-backdrop{
+  z-index: 0 !important;
 }
